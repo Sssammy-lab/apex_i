@@ -1,0 +1,102 @@
+
+#form2{
+    width: 500px;
+    height: 450px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    color: rgb(112, 106, 106);
+    position: absolute;
+    left: 30%;
+    top:20%;
+    text-align: center;
+    background-image: url();
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+    background-image: url(img/payy.jpg);
+    background-repeat: no-repeat;
+    background-size: 1370px;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#form2 input{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#form2 h1{
+    color: white;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#form2 p{
+    color: white;
+    font-size: large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#email{
+    top: 40%;
+    position: absolute;
+    left: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 400px;
+    text-align: center;
+}
+
+
+#code{
+    position: absolute;
+    left: 32%;
+    top: 55%;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+
+#form2 button{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: fit-content;
+    padding: 10px;
+    position: absolute;
+    top: 85%;
+    left: 42%;
+    text-align: center;
+}
+
+#amount2{
+    position: absolute;
+    top:70%;
+    width: 130px;
+    left: 36%;
+    text-align: center;
+}
+
+#send{
+    top: 40%;
+    position: absolute;
+    left: 50%;
+    width: fit-content;
+    padding: 10px ;
+    text-align: center;
+    border-right: 10px;
+    background-color: chartreuse;
+    color: black;
+}
