@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment System</title>
+    <link rel="stylesheet" href="pay.css"> <!-- Optional: Link to external CSS -->
+</head>
+<link rel="stylesheet" href="bank.css">
+<link rel="stylesheet" href="m_pesa.css">
+<link rel="stylesheet" href="paypal.css">
+<body id="body">
+    <p><strong>PLEASE SELECT A MODE OF PAYMENT</strong></p>
+
+    <!-- Payment Selection Dropdown -->
+    <select name="Payment" id="payment">
+        <option value="" selected disabled>Select Payment Method</option>
+        <option value="bank">BANK</option>
+        <option value="m_pesa">M-PESA</option>
+        <option value="paypal">PAYPAL</option>
+    </select>
+
+    <script src="pay.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
